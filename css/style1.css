@@ -1,0 +1,43 @@
+
+.contact_us{
+    background: url("gunjan.jpg") no-repeat center center fixed;
+    -webkit-background: cover;
+    -moz-background: cover;
+    -o-background: cover;
+    background: cover;
+    min-height: 300px;
+    color: #FFF;
+    font-family: sans-serif;
+    
+}
+.contact_us .content{
+    background-color: rgba(2,2,2,.9);
+    padding: 30px;
+}
+.contact_us .content h4{
+    margin-bottom: 30px;
+}
+.contact_us .content .form-control {
+    background-color: rgba(82,78,78,.07);
+    color: #FFF;
+    border: none;
+    
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.contact_us .content .form-control.active{
+  -webkit-transform: scale(1.1, 1.1);
+  -moztransform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+.contact_us .content textarea{
+    height: 108px;
+    outline:none;
+}
+.contact_us .content .btn-danger {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
